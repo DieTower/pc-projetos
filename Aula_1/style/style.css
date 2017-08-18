@@ -1,0 +1,31 @@
+body { background-color:#ecf0f1; font-family:Arial; }
+
+.h1_class {
+    text-align:center;
+    margin:10px 0px 0px 0px;
+}
+
+.h2_class {
+    text-align:center;
+    color:dimgrey;
+    margin:0px 0px 0px 0px;
+    
+    font-size:17px;
+    
+    text-transform:uppercase;
+}
+
+.lista_class {
+    list-style:none;
+    padding:0px;
+}
+
+li {
+    padding:10px 10px 10px 11px;
+    margin:12px;
+    
+    font-size:18px;
+    color:#FFFFFF;
+    
+    background-color:#9b59b6;
+}
