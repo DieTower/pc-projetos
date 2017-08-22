@@ -22,7 +22,7 @@ th {
     padding-bottom:39px;
 }
 
-tr:hover {
+.linha_class:hover {
     background-color:#eeeeee;
 }
 
@@ -68,7 +68,7 @@ span.text_num2_class {
 }
 
 
-.linha_num12_class:hover {
+.linha_num13_class:hover {
     background-color:#FFFFFF;
 }
 
