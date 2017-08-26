@@ -1,0 +1,68 @@
+.caixa0_class {
+    width:213px;
+    margin:53px 10px 57px 10px;
+    position:relative;
+    left:45.5%;
+}
+
+.caixa_class {
+    display:inline-block;
+    width:300px;
+}
+
+.img_class {
+    width:300px;
+}
+
+.caixa_secundaria_class {
+    width:100%;
+    height:1000px;
+    
+    margin:25px 10px 28px 10px;
+}
+
+.caixa_terciaria_class {
+    width:990px;
+    position:relative;
+    left:25%;
+}
+
+.caixa_class {
+    width:300px;
+}
+
+.caixa1_class {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.caixa2_class {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.caixa3_class {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.caixa4_class {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.caixa5_class {
+    position:relative;
+    top:-23px;
+    left:0px;
+}
+
+.caixa6_class {
+    position:relative;
+    top:0px;
+    left:0px;
+}
