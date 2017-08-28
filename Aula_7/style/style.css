@@ -119,16 +119,16 @@ section {
 }
 
 .section_num1_class {
-    max-width:1440px;
+    min-width:1440px;
     height:554px;
 }
 
 .section1_conteiner1_class {
     position:relative;
     top:13%;
-    left:250px;
+    left:30%;
     
-    width:100%;
+    width:500px;
     height:498px,
 }
 
@@ -195,6 +195,7 @@ section {
 
 .section_num2_class {
     position:relative;
+    min-Width:1440px;
     height:439px;
     background-color:#ebe8fb;
     border-top:3px solid #511099;
@@ -296,6 +297,7 @@ section {
 footer {
     position:relative;
     width:100%;
+    min-width:1440px;
     height:91px;
     border-top:3px solid white;
     background-color:#2a0157;
