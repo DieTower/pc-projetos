@@ -1,5 +1,6 @@
 header {
     width:100%;
+    min-width:1440px;
     height:828px;
     
     background-image: url("../img/header.png");
@@ -118,13 +119,14 @@ section {
 }
 
 .section_num1_class {
+    max-width:1440px;
     height:554px;
 }
 
 .section1_conteiner1_class {
     position:relative;
     top:13%;
-    left:20%;
+    left:250px;
     
     width:100%;
     height:498px,
@@ -230,6 +232,8 @@ section {
 
 .section_num3_class {
     position:relative;
+    width:100%;
+    min-width:1440px;
     height:424px;
     background-image:url("../img/section3_num1.png");
     background-repeat:no-repeat;
