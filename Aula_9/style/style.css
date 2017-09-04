@@ -1,0 +1,475 @@
+@font-face{
+    font-family:'muli_extraBold';
+    src: url('../font/muli-extrabold-webfont.woff') format('woff'),
+         url('../font/muli-extrabold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'muli_extraItalic';
+    src: url('../font/muli-extralightitalic-webfont.woff') format('woff'),
+         url('../font/muli-extralightitalic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'muli';
+    src: url('../font/muli-regular-webfont.woff') format('woff'),
+         url('../font/muli-regular-webfont.woff2') format('woff2');
+}
+
+
+div.conteiner_class {
+    width:682px;
+    height:551px;
+    
+    position:absolute;
+    top:100px;
+    left:171px;
+    
+    display:flex;
+    flex-direction:column;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
+}
+
+header {
+    width:100%;
+    height:40px;
+    
+    border-bottom:1px solid #eaeaea;
+}
+
+header .header_block_class {
+    width:400px;
+    height:18px;
+    
+    margin-top:9px;
+    margin-left:20px;
+    
+    padding-top:4px;
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align:center;
+}
+
+header .header_block_class h1 {
+    margin:0px;
+    margin-right:9px;
+    
+    width:87px;
+    
+    font-family:"Muli_extraBold";
+    font-weight:700;
+    font-size:18px;
+    
+    color:#5e5f5f;
+    line-height:18px;
+}
+
+header .header_block_class span {
+    font-family:"Muli";
+    font-weight:400;
+    font-size:12px;
+    
+    color:#4a4a4a;
+    line-height:12px;
+    opacity:0.5;
+}
+
+header .header_block_class span.special_span {
+    font-weight:700 !important;
+}
+
+header a.Exit_class {
+    position:relative;
+    top:-19px;
+    left:95%;
+    
+    background-image:url(../img/Exit.png);
+    background-repeat:no-repeat;
+    
+    width:17px;
+    height:17px;
+}
+
+header a.Exit_class span {
+    visibility:hidden;
+}
+
+
+section.conteiner1_class {
+    width:682px;
+    height:511px;
+    
+    display:flex;
+    flex-direction:row;
+}
+
+section.conteiner2_class {
+    width:382px;
+    height:511px;
+    border-right:1px solid #dddcde;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+section.conteiner2_class div.cont2_num1_class {
+    width:381px;
+    height:150px;
+    
+    display:flex;
+    justify-content:center;
+}
+
+section div.cont2_num1_class .cont2_wallet_class {
+    width:330px;
+    height:127px;
+    margin-top:6px;
+}
+
+section .cont2_wallet_class h3 {
+    margin:0px;
+    margin-top:6px;
+    margin-bottom:11px;
+    
+    font-family:"Muli";
+    font-weight:400;
+    font-size:16px;
+    
+    color:#777879;
+    line-height:14px;
+}
+
+section .cont2_wallet_class .wallet_class {
+    display:flex;
+    flex-direction:row;
+}
+
+section .cont2_wallet_class .wallet_class .card_class {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+    width:109px;
+    height:96px;
+    
+    border:1px solid #FFFFFF;
+    border-radius:3px;
+    text-decoration:none;
+    
+    margin-bottom:16px;
+}
+
+section .cont2_wallet_class .wallet_class .card_class:hover {
+    border:1px solid #d1e2f6;
+    border-radius:3px;
+    background-color:#f5f9fd;
+}
+
+section .cont2_wallet_class .wallet_class .card_class span {
+    color:#777879;
+    opacity:0.7;
+    
+    font-family:"Muli";
+    font-weight:400;
+    font-size:12px;
+    
+    margin-top:6px;
+}
+
+
+section.conteiner2_class div.cont2_num2_class {
+    width:381px;
+    height:360px;
+    
+    display:flex;
+    justify-content:center;
+}
+
+section .cont2_num2_class div.cont2_form_class {
+    width:354px;
+    height:335px;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+section .cont2_num2_class h3 {
+    margin:0px;
+    padding-left:8px;
+    padding-bottom:5px;
+    margin-bottom:23px;
+    border-bottom:1px solid #eaeaea;
+    
+    color:#777879;
+    font-family:"muli";
+    font-weight:400;
+    font-size:16px;
+}
+
+section .cont2_num2_class form {
+    margin-left:33px;
+    margin-right:32px;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+section .cont2_num2_class .input_class {
+    margin:0px 10px 25px 10px;
+    padding:15px 0px 12px 12px;
+    
+    border:1px solid #dedede;
+    border-radius:2px;
+    
+    font-family:"Muli";
+    font-weight:400;
+    font-size:14px;
+    
+    color:#000000;
+    line-height:13px;
+}
+
+::-webkit-input-placeholder {
+   color: #c4cbd0;
+}
+
+section .cont2_num2_class .input_class_num2 {
+    margin:0px !important;
+}
+
+section .cont2_num2_class .creditCard_class {
+    width:270px;
+    height:80px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 10px 0px 10px;
+}
+
+section .cont2_num2_class .creditCard_class .input3_class {
+    padding:0px;
+    padding-left:12px;
+    width:138px;
+    height:40px;
+}
+
+section .cont2_num2_class .creditCard_class .input4_class {
+    padding:0px;
+    padding-left:12px;
+    width:83px;
+    height:40px;
+}
+
+section .cont2_num2_class .form_checkbox_class {
+    margin-left:12px;
+    margin-top:21px;
+    margin-bottom:36px;
+    
+    display:flex;
+    flex-direction:row;
+}
+
+section .cont2_num2_class .form_checkbox_class .checkbox_class {
+    width:15px;
+    height:15px;
+}
+
+section .cont2_num2_class .form_checkbox_class span {
+    font-family:"Muli";
+    font-weight:400;
+    font-size:14px;
+    
+    color:#777879;
+    line-height:13px;
+    
+    margin-left:7px;
+    margin-top:3px;
+}
+
+section .cont2_num2_class .button_class {
+    height:71px;
+    
+    border:0px;
+    border-radius:2px;
+    background-color:#8bd638;
+    
+    font-family:"Muli";
+    font-weight:700;
+    font-size:16px;
+    
+    color:#FFFFFF;
+    line-height:16px;
+    
+    cursor:pointer;
+}
+
+
+section.conteiner3_class {
+    width:300px;
+    height:510px;
+    
+    background-color:#ebebeb;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+section.conteiner3_class div.cont3_num1_class {
+    width:300px;
+    height:387px;
+    
+    display:flex;
+    justify-content:center;
+}
+
+section ul.compras_class {
+    list-style:none;
+    margin:25px 0px 0px 0px;
+    padding:0px;
+    
+    width:284px;
+    height:258px;
+}
+
+section ul.compras_class li {
+    display:flex;
+    flex-direction:row;
+    
+    padding:0px 0px 7px 9px;
+    margin-bottom:11px;
+    border-bottom:1px solid #dbdbdb;
+}
+
+section div.li_box1_class {
+    width:260px;
+    height:48px;
+    
+    margin-top:;
+    margin-left:6px;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+section div.li_box1_class div.li_firstLine_class {
+    height:13px;
+    margin-bottom:3px;
+    
+    font-family:"muli_extraBold";
+    font-weight:700;
+    font-size:12px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+    color:#777879;
+    line-height:13px;
+}
+
+section div.li_firstLine_class a.firstLine_num2_class {
+    margin-right:7px;
+}
+
+section div.li_box1_class span.li_span1_class {
+    height:13px;
+    margin-bottom:1px;
+    
+    font-family:"muli_extraItalic";
+    font-weight:200;
+    font-size:10px;
+    
+    color:#4a4a4a;
+}
+
+section div.li_box1_class span.li_span2_class {
+    height:13px;
+    
+    font-family:"muli";
+    font-weight:700;
+    font-size:10px;
+    
+    color:#9c9c9c;
+}
+
+section div.li_box1_class span.li_span2_class span {
+    font-weight:400 !important;
+}
+
+
+section.conteiner3_class div.cont3_num2_class {
+    width:300px;
+    height:71px;
+    
+    display:flex;
+    justify-content:center;
+}
+
+section div.cont3_num2_class ul {
+    list-style:none;
+    padding:0px;
+    padding-top:13px;
+    margin:0px;
+    
+    width:270px;
+    height:74px;
+    
+    border-top:1px solid #d6d4d7;
+}
+
+section div.cont3_num2_class ul li {
+    margin-bottom:10px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+section div.cont3_num2_class ul li a {
+    font-family:"muli";
+    font-weight:400;
+    font-size:12px;
+    
+    color:#777879;
+    line-height:10px;
+}
+
+
+section.conteiner3_class div.cont3_num3_class {
+    width:300px;
+    height:51.5px;
+    
+    margin-top:2px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+section div.cont3_num3_class div.num3_class {
+    width:270px;
+    height:51.5px;
+    
+    border-top:1px solid #d6d4d7;
+    margin-top:2px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+section div.cont3_num3_class div.num3_class a {
+    height:13px;
+    
+    font-family:"muli_extraBold";
+    font-weight:700;
+    font-size:12px;
+    
+    color:#777879;
+}
