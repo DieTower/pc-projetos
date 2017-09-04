@@ -355,6 +355,10 @@ section ul.compras_class li {
     border-bottom:1px solid #dbdbdb;
 }
 
+section ul.compras_class li:last-child {
+    border-bottom:1px solid #ebebeb;
+}
+
 section div.li_box1_class {
     width:260px;
     height:48px;
