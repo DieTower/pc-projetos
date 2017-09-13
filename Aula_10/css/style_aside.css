@@ -1,0 +1,102 @@
+aside {
+    background-color:#3a3c40;
+    height:100vw;
+    
+    display:flex !important;
+    flex-direction:column;
+    align-items:center;
+} 
+
+aside img {
+    width:140px;
+    height:140px;
+    
+    border-radius:2px;
+    
+    margin-top:32px;
+}
+
+aside h2 {
+    font-weight:700;
+    font-size:1.500em;
+    
+    margin-top:16px;
+    
+    color:#f5a623;
+    transform:uppercase;
+}
+
+aside h4 {
+    font-weight:700;
+    font-size:1em;
+    
+    margin-top:4px;
+    
+    color:#FFFFFF;
+}
+
+aside button.button_class {
+    height:50px;
+    
+    font-weight:700 !important;
+    font-size:0.875em !important;
+    
+    margin-top:15px;
+    padding:14px 30px;
+    
+    background-color:#f6a623 !important;
+    box-shadow:0 4px 0 rgba(245, 166, 35, 0.6);
+    
+    color:#FFFFFF !important;
+    text-transform:uppercase;
+}
+
+aside ul.social_class {
+    margin-top:20px;
+    
+    display:flex;
+    flex-direction:row;
+}
+
+aside ul.social_class li {
+    margin:0px 6px;
+}
+
+aside ul.social_class li i {
+    font-size:30px;
+    color:#FFFFFF !important;
+}
+
+aside .skills_class h3 {
+    font-weight:700;
+    font-size:1.000em;
+    
+    color:#eeeeee;
+}
+
+aside .skills_class {
+    width:100%;
+    padding:45px;
+}
+
+aside .skills_class ul {
+    list-style:none;
+}
+
+aside .skills_class ul li {
+    display:flex;
+    flex-direction:column;
+    
+    margin-top:12px;
+}
+
+aside .skills_class ul li small {
+    font-weight:400;
+    font-size:0.750em;
+    
+    color:#8fa4af;
+}
+
+aside .skills_class ul li progress::-webkit-progress-value {
+    background-color:#eeb65a !important;
+}

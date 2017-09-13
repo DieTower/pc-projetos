@@ -1,0 +1,4 @@
+@import url("style_aside.css");
+@import url("style_article.css");
+
+*:not(i) { font-family:'Lato' !important; }
