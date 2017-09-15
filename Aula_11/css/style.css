@@ -1,0 +1,63 @@
+@import url("style_resultado.css");
+
+*:not(i) { font-family:'Oswald'; }
+
+.container_class {
+    margin-top:12px;
+    background-color:#ffffff;
+}
+
+section .column_class {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+section .column_class:not(.column3_class) {
+    height:240px;
+}
+
+section .column1_class {
+    background-color:#3498db;
+}
+
+section .column2_class {
+    background-color:#34495e;
+}
+
+label {
+    margin-left:15px;
+    
+    font-weight:300;
+    font-size:20px;
+    color:#ffffff;
+    text-transform:uppercase;
+}
+
+input {
+    margin:25px 0px;
+    
+    font-weight:300;
+    font-size:100px;
+    text-align:center;
+    color:#ffffff;
+    
+    border:0px;
+    background:none;
+}
+
+input.altura_class:focus, input.quilos_class:focus {
+    outline:none;
+}
+
+button.imc_class {
+    margin:0px 12.5px;
+    margin-top:6px;
+    
+    font-weight:300;
+    font-size:72px !important;
+    text-transform:uppercase;
+    
+    background-color: #27ae60 !important;
+    box-shadow: 0 6px 0 #245b3b;
+}

@@ -1,0 +1,48 @@
+.resultado_class {
+    padding-top:40px;
+    padding-left:33px;
+    
+    display:none;
+    flex-direction:row;
+    align-items:center;
+}
+
+.resultado_class .img_class {
+    width:56px;
+    height:73px;
+    
+    cursor:pointer;
+    
+    background-image: url("../img/img1.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.resultado_class .img_class span {
+    visibility:hidden;
+}
+
+.resultado_class .valores_class {
+    padding-left:38px;
+    margin-bottom:8px;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+.resultado_class .valores_class .valor_class {
+    font-weight:300;
+    font-size:50px;
+    line-height:59px;
+    
+    color:#4a4a4a;
+    text-transform:uppercase;
+}
+
+.resultado_class .valores_class .tipo_class {
+    font-weight:300;
+    font-size:24px;
+    
+    color:#4a4a4a;
+    text-transform:uppercase;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-pt">
+    
+    <head>
+        
+        <meta charset="UTF-8" />
+        <title>Aula 11</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        
+        <script src="js/script.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="container_id" class="container_class container">
+            
+            <section id="section_id" class="section_class section_class columns">
+                
+                <div id="column1_id" class="column1_class column_class column is-4">
+                    <label for="altura_id">Altura em Metros</label>
+                    <input type="number" step="0.1" min="1.0" id="altura_id" class="altura_class" />
+                </div>
+                
+                <div id="column2_id" class="column2_class column_class column is-4">
+                    <label for="quilos_id">Peso em Quilos</label>
+                    <input type="number" step="0.1" min="1.0" id="quilos_id" class="quilos_class" />
+                </div>
+                
+                <div id="column3_id" class="column3_class column_class column is-4">
+                    <button id="imc_id" class="imc_class button is-large is-success"><span>IMC</span></button>
+                    
+                    <div id="resultado_id" class="resultado_class">
+                        
+                        <a id="img_id" class="img_class">
+                            <span>seta</span>
+                        </a>
+                        
+                        <div id="valores_id" class="valores_class">
+                            <a id="valor_id" class="valor_class"></a>
+                            <a id="tipo_id" class="tipo_class"></a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </section>
+            
+        </div>
+        
+    </body>
+    
+</html>

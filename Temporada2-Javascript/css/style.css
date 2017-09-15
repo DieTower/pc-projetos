@@ -1,0 +1,33 @@
+body {
+    background-color:orange;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+}
+
+div#form {
+    display:flex;
+    flex-direction:row;
+    
+    margin-top:10px;
+}
+
+input#texto {
+    height:28.3px;
+    margin-right:10px;
+    padding-left:5px;
+    font-size:19px;
+}
+
+button {
+    height:34.3px;
+    cursor:pointer;
+}
+
+div#inf {
+    margin:10px 5px;
+    
+    display:flex;
+    flex-direction:column;
+}
