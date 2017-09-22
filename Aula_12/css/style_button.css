@@ -1,0 +1,32 @@
+.botao_class {
+    border:none;
+    cursor:pointer;
+    
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.botao_class span {
+    visibility:hidden;
+}
+
+/* Atributos */
+.RealForDollar {
+    background-image:url('../img/img1.png');
+}
+
+.DollarForReal {
+    background-image:url('../img/img2.png');
+}
+
+.blueButton {
+    background-color:#4a90e2;
+}
+
+.orangeButton {
+    background-color:#f98611;
+}
+
+.greenButton {
+    background-color:#27ae60;
+}

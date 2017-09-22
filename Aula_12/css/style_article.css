@@ -1,0 +1,115 @@
+article {
+    grid-column:1/4;
+    grid-row:2/6;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:repeat(4,1fr);
+}
+
+article section:nth-child(1) {
+    grid-column:1/span 3;
+    grid-row:1/2;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:repeat(1,1fr);
+}
+
+article section:nth-child(1) div:nth-child(1) {
+    grid-column:1/2;
+}
+
+article section:nth-child(1) div:nth-child(2) {
+    grid-column:2/3;
+}
+
+article section:nth-child(1) div:nth-child(3) {
+    grid-column:3/4;
+}
+
+article section:nth-child(2) {
+    grid-column:1/span 3;
+    grid-row:2/3;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:repeat(1,1fr);
+}
+
+article section:nth-child(2) div:nth-child(1) {
+    grid-column:1/2;
+}
+
+article section:nth-child(2) div:nth-child(2) {
+    grid-column:2/3;
+}
+
+article section:nth-child(2) div:nth-child(3) {
+    grid-column:3/4;
+}
+
+article section:nth-child(3) {
+    grid-column:1/span 3;
+    grid-row:3/4;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:repeat(1,1fr);
+}
+
+article section:nth-child(3) div:nth-child(1) {
+    grid-column:1/2;
+}
+
+article section:nth-child(3) div:nth-child(2) {
+    grid-column:2/3;
+}
+
+article section:nth-child(3) div:nth-child(3) {
+    grid-column:3/4;
+}
+
+article section:nth-child(4) {
+    grid-column:1/span 3;
+    grid-row:4/5;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:repeat(1,1fr);
+}
+
+article section:nth-child(4) div:nth-child(1) {
+    grid-column:1/2;
+}
+
+article section:nth-child(4) div:nth-child(2) {
+    grid-column:2/3;
+}
+
+article section:nth-child(4) div:nth-child(3) {
+    grid-column:3/4;
+}
+
+article section button:not(.botao_class) {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    font-family:'Lato';
+    font-weight:300;
+    font-size:50px;
+    
+    background-color:#d8d8d8;
+    border:1px solid #cdcccc;
+}
+
+article section button:hover:not(.botao_class) {
+    background-color:#c6c7cb;
+    border-color:#c6c7cb;
+    cursor:pointer;
+}
+
+article section button:focus {
+    outline:none;
+}

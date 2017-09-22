@@ -1,0 +1,11 @@
+@import url('style_header.css');
+@import url('style_article.css');
+@import url('style_button.css');
+
+.container_class {
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:20% 20% 20% 20% 20%;
+    background-color:red;
+    min-height:100vh;
+}

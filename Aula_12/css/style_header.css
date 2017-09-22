@@ -1,0 +1,35 @@
+header {
+    grid-column:1/4;
+    grid-row:1/2;
+    
+    display:grid;
+    grid-template-columns:33% auto 33%;
+    grid-template-rows:1fr;
+    
+    background-color:#202020;
+}
+
+header div {
+    grid-column:1/span 3;
+    
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+header div span {
+    color:#ffffff;
+    
+    visibility:hidden;
+    
+    margin-right:21px;
+    
+    font-family:'Lato';
+    font-weight:300;
+    font-size:50px;
+}
+
+header div span#sifra {
+    margin-right:5px;
+}
+
