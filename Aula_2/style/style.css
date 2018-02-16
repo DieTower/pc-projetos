@@ -33,7 +33,7 @@ body {
     border-radius:2px 2px 0px 0px;
     
     /*background-color:#e6e6e6;*/
-    background-image:url("/img/cratera.png");
+    background-image:url("../img/cratera.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:0px;
