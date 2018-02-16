@@ -1,17 +1,18 @@
 body {
     background-color:#9b9b9b;
+    height:100vh;
 }
 
 .tabela_class {
-    position:absolute;
-    top:50px;
-    left:50px;
+    margin:5%;
     
     border-radius:3px;
     box-shadow:0px 2px 5px rgba(0, 0, 0, 0.26);
     
-    width:1000px;
-    height:704px;
+    width:90%;
+    height:90%;
+    
+    min-width:640px;
     
     border-collapse:collapse;
     background-color:#FFFFFF;
@@ -19,7 +20,7 @@ body {
 
 th {
     text-align:left;
-    padding-bottom:39px;
+    padding:23px 0px 19px 21px;
 }
 
 .linha_class:hover {
@@ -31,10 +32,6 @@ th {
 }
 
 .title_class {
-    position:absolute;
-    top:21px;
-    left:23px;
-    
     color:#000000;
     opacity:0.87;
     

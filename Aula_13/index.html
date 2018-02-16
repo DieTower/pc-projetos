@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="pt-pt">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aula 13</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <!-- Template de exemplo -->
+                <template id="htmlElement">
+                    <div id="product_id" class="product_class">
+                        <div id="productState_id" class="productState_class {{classCss}}">
+                            <div id="productName_id" class="productName_class">
+                                <p id="pName_id">{{productName}}</p>
+                                <p><small>Min<span id="pStockMin_id">{{stockMin}}</span></small></p>
+                            </div>
+
+                            <div>
+                                <p id="pStock_id">{{stock}}</p>
+                            </div>
+                        </div>
+
+                        <div id="productEdit_id" class="productEdit_class vanish">
+                            <div id="productEditRemove_id" class="productEditRemove_class">
+                                <span>Junk</span>
+                            </div>
+
+                            <div id="productEditLess_id" class="productEditLess_class">
+                                <span>Less</span>
+                            </div>
+
+                            <div id="productEditPlus_id" class="productEditPlus_class">
+                                <span>Plus</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+        
+        
+        
+        <div id="container_id" class="container_class">
+            
+            <!-- Parte um do gestor -->
+            <ul id="appPart1_id" class="appPart1_class">
+                
+                <!-- Salvar dados -->
+                <li id="saveEditions_id" class="saveEditions_class vanish">
+                    <div id="buttonRight_id" class="button_class buttonRight_class">
+                        <span class="hidden">Right</span>
+                    </div>
+                    
+                    <div id="buttonSave_id" class="button_class buttonSave_class">
+                        <div id="buttonSaveMiddle_id" class="buttonSaveMiddle_class">
+                            <div>
+                                <span class="hidden">img</span>
+                            </div>
+
+                            <div>
+                                <span>Salve suas Alterações</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <!-- Barra de procura -->
+                <li id="search_id" class="search_class">
+                    <input type="text" id="inputNum1_id" class="input_class inputNum1_class" />
+                    <button id="buttonNum1_id" class="button_class buttonNum1_class"><span>Button</span></button>
+                </li>
+                
+                <!-- Barra para defenir stock minimo -->
+                <li id="setStockMin_id" class="setStockMin_class vanish">
+                    <ul>
+                        <li>
+                            <span>Estoque Mínimo</span>
+                        </li>
+                        
+                        <li id="stockMinNumber_id">
+                            <span id="stockMin_id">0</span>
+                        </li>
+                        
+                        <li id="stockMinLess_id">
+                            <div id="stockMinLessButton_id">
+                                <span class="hidden">Less</span>
+                            </div>
+                        </li>
+                        
+                        <li id="stockMinPlus_id">
+                            <div id="stockMinPlusButton_id">
+                                <span class="hidden">Plus</span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Parte dois do gestor -->
+            <ul id="appPart2_id" class="appPart2_class">
+                <li class="item1"></li>
+                <li class="item2"></li>
+            </ul>
+            
+        </div>
+        
+        <script src="js/utensils.js"></script>
+        <script src="js/writeAndDefine.js"></script>
+        
+        <script src="js/productChanges.js"></script>
+        <script src="js/saveChanges.js"></script>
+        <script src="js/productList.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>

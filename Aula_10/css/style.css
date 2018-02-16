@@ -2,3 +2,15 @@
 @import url("style_article.css");
 
 *:not(i) { font-family:'Lato' !important; }
+
+body {
+    min-width:720px;
+}
+
+div#container {
+    min-width:720px;
+}
+
+div#columns {
+    min-width:720px;
+}

@@ -1,24 +1,22 @@
 .box_background_class {
-    position:absolute;
-    top:50px;
-    left:5%;
-    width:375px;
-    height:667px;
+    width:100%;
+    height:100vh;
     background-color:#745CC1;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .imagem_class {
-    position:absolute;
-    top:65px;
-    left:140px;
+    margin-top:65px;
+    margin-bottom:56px;
+    
     width:95px;
     height:99px;
 }
 
 .input_class {
-    position:absolute;
-    left:65px;
-    width:247px;
     padding-left:1px;
     
     border-right:none;
@@ -44,20 +42,21 @@
 }
 
 .input_email_class {
-    top:219px;
+    width:70%;
+    margin:0px 15%;
+    margin-bottom:55px;
 }
 
 .input_password_class {
-    top:299px;
+    width:70%;
+    margin:0px 15%;
+    margin-bottom:59px;
 }
 
 button { border:none; }
 button:focus { outline:none; }
 
 .login_class {
-    position:absolute;
-    top:383px;
-    left:64px;
     width:247px;
     height:50px;
     margin-bottom:6px;
@@ -68,6 +67,10 @@ button:focus { outline:none; }
     text-decoration:none;
     border-radius:40px;
     box-shadow:0 2px 3px;
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .login_class:hover {
@@ -75,9 +78,6 @@ button:focus { outline:none; }
 }
 
 .span_class {
-    position:absolute;
-    top:15px;
-    left:98px;
     
     font-family:Roboto;
     font-style:Medium;
@@ -89,6 +89,8 @@ button:focus { outline:none; }
 }
 
 .forgot_class {
+    margin-top:6px;
+    
     text-decoration:none;
     text-shadow: 1px 1px 0 black;
     color:#FFFFFF;
@@ -97,8 +99,4 @@ button:focus { outline:none; }
     font-family:Roboto;
     font-style:Regular;
     font-weight:400px;
-    
-    position:absolute;
-    top:439px;
-    left:121px;
 }

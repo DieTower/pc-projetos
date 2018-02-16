@@ -7,7 +7,14 @@
 }
 
 .forgot_class {
-    position:absolute;
-    top:354px !important;
-    left:130px !important;
+    margin-top:6px;
+    
+    text-decoration:none;
+    text-shadow: 1px 1px 0 black;
+    color:#FFFFFF;
+    
+    font-size:14px;
+    font-family:Roboto;
+    font-style:Regular;
+    font-weight:400px;
 }

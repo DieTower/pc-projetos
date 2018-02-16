@@ -1,0 +1,123 @@
+.product_class {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+p {
+    margin:0px;
+    padding:0px;
+}
+
+/* Barra onde se vizualiza o estado do produto */
+.productState_class {
+    height:72px;
+    
+    border-bottom:1px solid #ded8d8;
+    background-color: #ecf0f1;
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.productState_class {
+    font-family:'Lato';
+}
+
+.productState_class div {
+    width:100%;
+    color:#4a4a4a;
+    
+    display:flex;
+    flex-direction:row;
+}
+
+.productState_class div:nth-child(1) {
+    margin-left:18px;
+}
+
+.productState_class div p:nth-child(1) {
+    font-weight:300;
+    font-size:1.250em;
+}
+
+.productState_class div p:nth-child(2) {
+    font-weight:300;
+    
+    position:relative;
+    top:-11px;
+    left:8px;
+}
+
+.productState_class div:nth-child(2) {
+    justify-content:flex-end;
+    margin-right:24px;
+}
+
+.productState_class div:nth-child(2) p {
+    font-weight:400;
+}
+
+/* Mudar fundo para vermelho de alerta */
+.backgroundRed {
+    background-color:#ef3e3e;
+}
+
+.backgroundRed p {
+    color:#ffffff;
+}
+
+
+/* Barra de edição */
+.productEdit_class {
+    height:72px;
+    
+    color:#ffffff;
+    background-color:#34495e;
+    border-bottom:1px solid #ded8d8;
+    
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.productEdit_class div:nth-child(1) {
+    width:25px;
+    height:30px;
+    
+    cursor:pointer;
+    
+    background-image:url("/img/imgJunk.png");
+    background-repeat:no-repeat;
+}
+
+.productEdit_class div:nth-child(1) span { visibility:hidden; }
+
+.productEdit_class div:nth-child(2) {
+    width:30px;
+    height:30px;
+    
+    cursor:pointer;
+    
+    background-image:url("/img/imgButtonLess.png");
+    background-repeat:no-repeat;
+}
+
+.productEdit_class div:nth-child(2) span { visibility:hidden; }
+
+.productEdit_class div:nth-child(3) {
+    width:30px;
+    height:30px;
+    
+    cursor:pointer;
+    
+    background-image:url("/img/imgButtonPlus.png");
+    background-repeat:no-repeat;
+}
+
+.productEdit_class div:nth-child(3) span { visibility:hidden; }
+
+.appPart2_class li {
+    height:auto;
+}
