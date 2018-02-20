@@ -3,40 +3,184 @@
     margin:0px;
 }
 
-.caixa_principal_class {
-    width:95.4%;
-}
-
-.caixa0_class {
-    text-align:center;
-    width:100%;
-    margin:25px 10px 28px 10px;
-}
-
-.caixa_secundaria_class {
-    width:100%;
-}
-
-.caixa_class {
-    width:100%;
-    margin:0px 10px 20px 10px;
-}
-
-.img_class {
-    width:100%;
-    margin-bottom:5px;
-}
-
-.caixa_text_class {
-    height:50px;
-}
-
-.text_class {
-    font-family:'Roboto';
-    font-style:Medium;
-    font-weight:500;
-    font-size:20px;
+@media only screen and (min-width:950px) {
     
-    color:#4a4a4a;
-    text-transform:uppercase;
+    .caixa_principal_class {
+        width:100%;
+        height:100%;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .caixa_secundaria_class {
+        width:100%;
+        height:100%;
+
+        display:grid;
+        grid-template-columns:100%;
+        grid-template-rows:15% 85%;
+    }
+
+    .caixa0_class {
+        grid-column:1/2;
+        grid-row:1/2;
+
+        background-image:url("../img/logo-playcode.png");
+        background-repeat:no-repeat;
+        background-position:center;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .caixa_terciaria_class {
+        grid-column:1/2;
+        grid-row:1/3;
+
+        width:100% !important;
+
+        display:grid;
+        grid-template-columns:100%;
+        grid-template-rows:15% 85%;
+    }
+
+    .anotherBox {
+        grid-column:1/2;
+        grid-row:2/3;
+
+        width:100%;
+        height:100%;
+
+        display:grid;
+        grid-template-columns:100%;
+        grid-template-rows:35% auto;
+    }
+
+    .grupo1 {
+        width:100%;
+
+        grid-column:1/2;
+        grid-row:1/2;
+
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:100%;
+    }
+
+    .caixa_class {
+        grid-row:1/2;
+
+        display:grid;
+        grid-template-columns:300px;
+        grid-template-rows:169px 5px 48px;
+    }
+
+    .img_class {
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+
+    .caixa_text_class {
+        grid-column:1/2;
+        grid-row:3/4;
+    }
+
+    .caixa1_class {
+        grid-column:2/3;
+    }
+
+    .img1_class {
+        background-image:url("../img/img1.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+    .caixa2_class {
+        grid-column:3/4;
+    }
+
+    .img2_class {
+        background-image:url("../img/img2.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+    .caixa3_class {
+        grid-column:4/5;
+    }
+
+    .img3_class {
+        background-image:url("../img/img3.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+
+    .grupo2 {
+        width:100%;
+
+        grid-column:1/2;
+        grid-row:2/3;
+
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:100%;
+    }
+
+    .caixa4_class {
+        grid-column:2/3;
+    }
+
+    .img4_class {
+        background-image:url("../img/img4.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+    .caixa5_class {
+        grid-column:3/4;
+    }
+
+    .img5_class {
+        background-image:url("../img/img5.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+    .caixa6_class {
+        grid-column:4/5;
+    }
+
+    .img6_class {
+        background-image:url("../img/img6.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+    }
+
+
+    .caixa_class {
+        height:220px;
+        margin:10px;
+    }
+
+    .text_class {
+        font-family:'Roboto';
+        font-style:Medium;
+        font-weight:500;
+        font-size:20px;
+
+        color:#4a4a4a;
+        text-transform:uppercase;
+    }
+
 }
