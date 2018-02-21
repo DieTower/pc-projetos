@@ -1,7 +1,10 @@
 aside {
     background-color:#3a3c40;
+    background-size:cover;
+    background-position:cover;
+    
     height:100vw;
-    min-width:720px;
+    min-height:750px;
     
     display:flex !important;
     flex-direction:column;
